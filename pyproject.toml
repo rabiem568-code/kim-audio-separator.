@@ -1,0 +1,25 @@
+[tool.briefcase]
+project_name = "Kim Audio Separator"
+bundle = "org.rabee"
+version = "1.0"
+app_author = "Rabee Mareh"
+app_license = "Proprietary"
+summary = "Offline Android application for vocal isolation"
+sources = ['src']
+test_sources = ['tests']
+requires = [
+    "kivymd",
+    "flask",
+    "requests"
+]
+
+[tool.briefcase.app.kim_audio_separator]
+formal_name = "Kim Audio Separator"
+description = "Offline vocal isolation app"
+sources = ['kim_audio_separator']
+
+[tool.briefcase.app.kim_audio_separator.android]
+build_system = "gradle"
+min_sdk_version = "21"
+target_sdk_version = "31"
+supported_architectures = ["arm64-v8a"]
