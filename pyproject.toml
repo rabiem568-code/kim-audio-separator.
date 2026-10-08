@@ -3,7 +3,7 @@ project_name = "Kim Audio Separator"
 bundle = "org.rabee"
 version = "1.0"
 app_author = "Rabee Mareh"
-license = { file = "LICENSE" }
+license = "Proprietary"
 summary = "Offline Android application for vocal isolation"
 sources = ['src']
 test_sources = ['tests']
