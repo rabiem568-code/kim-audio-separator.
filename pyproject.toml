@@ -5,7 +5,7 @@ version = "1.0"
 app_author = "Rabee Mareh"
 license = "Proprietary"
 summary = "Offline Android application for vocal isolation"
-sources = ['src']
+sources = ['.']
 test_sources = ['tests']
 requires = [
     "kivymd",
@@ -16,7 +16,7 @@ requires = [
 [tool.briefcase.app.kim_audio_separator]
 formal_name = "Kim Audio Separator"
 description = "Offline vocal isolation app"
-sources = ['kim_audio_separator']
+sources = ['main.py']
 
 [tool.briefcase.app.kim_audio_separator.android]
 build_system = "gradle"
